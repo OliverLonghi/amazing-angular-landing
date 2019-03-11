@@ -1,3 +1,6 @@
+I saw this site [infinite.red](https://infinite.red/) and decided to translate it to angular. 
+So, fell free to bootstrap your landing page with that skeleton.
+
 # Preview
 
 Visit [https://oliverlonghi.github.io/amazing-angular-landing](https://oliverlonghi.github.io/amazing-angular-landing).
