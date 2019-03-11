@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef, Input } from '@angular/core';
 
 @Component({
   selector: 'big-hero',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BigHeroComponent implements OnInit {
 
-  constructor() { }
+  @Input() image = '';
+
+  constructor(private el: ElementRef) { }
 
   ngOnInit() {
+    console.log('big-hero image', this.image)
+    if ( this.image != '' )
+      this.el.nativeElement.style.background = `url(${this.image})`;
   }
 
 }

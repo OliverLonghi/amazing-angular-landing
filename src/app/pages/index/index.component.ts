@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
       <menu></menu>
     </header>
 
-    <big-hero>
+    <big-hero image="./assets/images/office.jpg">
       <headline white>We’re an App Design & Development Team</headline>
       <legend grey italic>Experts in mobile & web technologies. We create beautiful, functional mobile apps and websites.</legend>
       <btn>Click me</btn>
@@ -17,18 +17,18 @@ import { Component, OnInit } from '@angular/core';
     <content-section>
       <headline black>Trusted by clients across 8 countries</headline>
       <clients>
-        <client image="/assets/images/client.png"></client>
-        <client image="/assets/images/client.png"></client>
-        <client image="/assets/images/client.png"></client>
-        <client image="/assets/images/client.png"></client>
-        <client image="/assets/images/client.png"></client>
-        <client image="/assets/images/client.png"></client>
-        <client image="/assets/images/client.png"></client>
-        <client image="/assets/images/client.png"></client>
-        <client image="/assets/images/client.png"></client>
-        <client image="/assets/images/client.png"></client>
-        <client image="/assets/images/client.png"></client>
-        <client image="/assets/images/client.png"></client>
+        <client image="./assets/images/client.png"></client>
+        <client image="./assets/images/client.png"></client>
+        <client image="./assets/images/client.png"></client>
+        <client image="./assets/images/client.png"></client>
+        <client image="./assets/images/client.png"></client>
+        <client image="./assets/images/client.png"></client>
+        <client image="./assets/images/client.png"></client>
+        <client image="./assets/images/client.png"></client>
+        <client image="./assets/images/client.png"></client>
+        <client image="./assets/images/client.png"></client>
+        <client image="./assets/images/client.png"></client>
+        <client image="./assets/images/client.png"></client>
       </clients>
     </content-section>
 
@@ -46,12 +46,12 @@ import { Component, OnInit } from '@angular/core';
       <br/>
       <br/>
       <cards>
-        <a><card image="/assets/images/card.jpg" legend="Brazil" subtitle="Brasil"></card></a>
-        <a><card image="/assets/images/card.jpg" legend="Brazil" subtitle="Brasil"></card></a>
-        <a><card image="/assets/images/card.jpg" legend="Brazil" subtitle="Brasil"></card></a>
-        <a><card image="/assets/images/card.jpg" legend="Brazil" subtitle="Brasil"></card></a>
-        <a><card image="/assets/images/card.jpg" legend="Brazil" subtitle="Brasil"></card></a>
-        <a><card image="/assets/images/card.jpg" legend="Brazil" subtitle="Brasil"></card></a>
+        <a><card image="./assets/images/card.jpg" legend="Brazil" subtitle="Brasil"></card></a>
+        <a><card image="./assets/images/card.jpg" legend="Brazil" subtitle="Brasil"></card></a>
+        <a><card image="./assets/images/card.jpg" legend="Brazil" subtitle="Brasil"></card></a>
+        <a><card image="./assets/images/card.jpg" legend="Brazil" subtitle="Brasil"></card></a>
+        <a><card image="./assets/images/card.jpg" legend="Brazil" subtitle="Brasil"></card></a>
+        <a><card image="./assets/images/card.jpg" legend="Brazil" subtitle="Brasil"></card></a>
       </cards>
       <btn color='#e73536' inverted_color='#fff'>See other projects</btn>
     </content-section>

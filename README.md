@@ -23,19 +23,19 @@ Type `npm run build` and your static data will be at `dist/`.
 - [x] Add button
 - [x] Add an abstract content section
 - [x] Make a list of cards
-- [] Make a bottom section
-- [] Publish project to github pages
+- [x] Make a bottom section
+- [x] Publish project to github pages
 
 # Future work
 
-- [] Add testimonials
-- [] Make a sample content page
-- [] Add big bio components
-- [] Add small bio components
-- [] Make an intercalated mosaic
-- [] Make a quote
-- [] Make an image gallery
-- [] Make a not found page
-- [] Make a black background logo
-- [] Make a white background logo
-- [] Make a printable logo
+- [ ] Add testimonials
+- [ ] Make a sample content page
+- [ ] Add big bio components
+- [ ] Add small bio components
+- [ ] Make an intercalated mosaic
+- [ ] Make a quote
+- [ ] Make an image gallery
+- [ ] Make a not found page
+- [ ] Make a black background logo
+- [ ] Make a white background logo
+- [ ] Make a printable logo

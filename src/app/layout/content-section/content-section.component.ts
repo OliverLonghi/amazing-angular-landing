@@ -13,8 +13,6 @@ export class ContentSectionComponent implements OnInit {
 
   ngOnInit() {
 
-    console.log('image', this.image)
-
     if ( this.image != '' ) 
       this.el.nativeElement.style.backgroundImage = `url(${this.image})`;
     

@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { IndexComponent } from './pages/index/index.component';
 import { BigHeroComponent } from './layout/big-hero/big-hero.component';
 import { ButtonComponent } from './layout/button/button.component';
@@ -29,14 +28,12 @@ import { MenuItemComponent } from './layout/menu-item/menu-item.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/index', pathMatch: 'full' },
-  { path: 'index', component: IndexComponent },
-  { path: '**', component: NotFoundComponent }
+  { path: 'index', component: IndexComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    NotFoundComponent,
     IndexComponent,
     BigHeroComponent,
     ButtonComponent,
