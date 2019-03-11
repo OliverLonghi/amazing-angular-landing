@@ -1,27 +1,41 @@
-# AmazingAngularLanding
+# Develop
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+Type `npm start` then browse to `http://localhost:4200`.
 
-## Development server
+# Build
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Type `npm run build` and your static data will be at `dist/`.
 
-## Code scaffolding
+# What to edit
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Go to to `src/app/layout/logo/logo.component.html` to set your logo.
+- Go to `src/app/layout/menu/menu.component.html` to edit the menu.
+- Go to `src/app/pages/index/index.component.html` to edit your landing content.
+- Images are placed at `src/assets/images/`.
 
-## Build
+# MVP
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- [x] Add flying menu
+- [x] Complete big hero component
+- [x] Add medium hero component
+- [x] Make a container spacer
+- [x] Add standard menu to hero components
+- [x] Add button
+- [x] Add an abstract content section
+- [x] Make a list of cards
+- [] Make a bottom section
+- [] Publish project to github pages
 
-## Running unit tests
+# Future work
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- [] Add testimonials
+- [] Make a sample content page
+- [] Add big bio components
+- [] Add small bio components
+- [] Make an intercalated mosaic
+- [] Make a quote
+- [] Make an image gallery
+- [] Make a not found page
+- [] Make a black background logo
+- [] Make a white background logo
+- [] Make a printable logo

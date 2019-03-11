@@ -1,0 +1,34 @@
+:host {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 100;
+  color: hsla(0,0%,100%,.4);
+  ::ng-deep menu-item:hover {
+    color: white;
+  }
+
+  .flying {
+    background-color: white;
+    border-bottom: 1px solid hsla(0,0%,76.9%,.5);
+    color: #454545;
+    ::ng-deep menu-item:hover {
+      color: black;
+      color: #000;
+    }
+  }
+
+  container {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  menu > menu-item {
+    opacity: 0.5;
+  }
+  
+}

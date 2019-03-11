@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.less']
+  selector: 'app',
+  template: `<router-outlet></router-outlet>`,
+  styles: [``]
 })
 export class AppComponent {
   title = 'amazing-angular-landing';
